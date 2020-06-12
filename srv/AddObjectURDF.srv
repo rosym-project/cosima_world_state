@@ -1,0 +1,7 @@
+string urdf_file_name
+bool fixed_base
+# bool URDF_USE_INERTIA_FROM_FILE
+geometry_msgs/Point position_offset_from_world
+geometry_msgs/Quaternion orientation_offset_from_world
+---
+int16 id
