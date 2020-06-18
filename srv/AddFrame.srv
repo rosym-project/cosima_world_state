@@ -1,0 +1,6 @@
+string frame_name
+geometry_msgs/Pose frame_pose
+int16 ref_frame_id
+bool ext_controlled_frame
+---
+int16 id
