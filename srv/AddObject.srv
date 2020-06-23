@@ -1,0 +1,10 @@
+string visual_mesh_file_name
+string collision_mesh_file_name
+
+geometry_msgs/Inertia inertia
+bool use_provided_inertia
+
+geometry_msgs/Pose frame_pose
+int16 ref_frame_id
+---
+int16 id

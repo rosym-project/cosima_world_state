@@ -4,8 +4,8 @@ int16 anchor_id
 # If attach_to_frame_id < 0 Then attach to world
 int16 target_id
 
-# FIXED CONSTRAINT
-# geometry_msgs/Point position_offset_from_target
-# geometry_msgs/Quaternion orientation_offset_from_target
+geometry_msgs/Vector3 axis
+
+bool natural
 ---
 int16 id
