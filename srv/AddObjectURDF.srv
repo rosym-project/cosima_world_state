@@ -5,3 +5,5 @@ geometry_msgs/Pose frame_pose
 int16 ref_frame_id
 ---
 int16 id
+string[] joint_names
+int16[] joint_ids
