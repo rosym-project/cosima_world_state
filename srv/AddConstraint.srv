@@ -4,7 +4,20 @@ int16 anchor_id
 # If attach_to_frame_id < 0 Then attach to world
 int16 target_id
 
-geometry_msgs/Vector3 axis
+bool axis_tx
+bool axis_ty
+bool axis_tz
+bool axis_rx
+bool axis_ry
+bool axis_rz
+
+# -1 / 0 / 1 / > 1 (nothing)
+int8 direction_tx
+int8 direction_ty
+int8 direction_tz
+int8 direction_rx
+int8 direction_ry
+int8 direction_rz
 
 bool natural
 ---
