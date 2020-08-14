@@ -12,6 +12,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_runtime
   std_msgs
   geometry_msgs
+  trajectory_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -79,6 +80,7 @@ generate_messages(
   DEPENDENCIES
   std_msgs
   geometry_msgs
+  trajectory_msgs
 )
 
 ################################################
